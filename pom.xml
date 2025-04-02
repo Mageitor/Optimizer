@@ -44,6 +44,7 @@
         <sonar.organization>mageitor251</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+        <gpg.skip>true</gpg.skip>
         <skipTests>true</skipTests>
     </properties>
 
